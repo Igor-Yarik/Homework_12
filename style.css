@@ -1,0 +1,343 @@
+* {
+    box-sizing: border-box;
+}
+
+h3, p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 33px;
+    margin-bottom: 42px;
+}
+
+
+
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact__item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    position: relative;
+}
+
+.contact__item::before {
+    content: '';
+    position: absolute;
+    background: url('/icon_phone.png');
+    top: 0;
+    left: -29px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.bye {
+    margin-left: 60px;
+    position: relative;
+
+}
+
+.bye::after {
+    content: '2';
+    position: absolute;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background-color: #06D10E;
+    border-radius: 50%;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.user {
+    margin-left: 15px;
+}
+
+
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header_nav {
+
+}
+
+.navigation {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    
+}
+
+.link_nav {
+    margin-right: 40px;
+    color: #4F4F4F;
+}
+
+.link_nav:last-child {
+    margin-right: 0;
+}
+
+.search {
+    width: 345px;
+    height: 54px;
+    background: #F2F2F2;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+    position: relative;
+    
+}
+
+
+.main_nav {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 30px;
+    
+}
+
+.link_main_nav {
+    color: #BDBDBD;
+    margin-right: 35px;
+}
+
+.back {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 44px;
+}
+
+.link_back {
+    
+    color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search_form {
+    position: relative;
+}
+
+.search_form::after {
+    content: '';
+    position: absolute;
+    background: url(/icon_search.png) center;
+    top: 25%;
+    right: 23px;
+    width: 26px;
+    height: 27px;
+
+}
+
+
+
+
+
+.mixes {
+    background-color: #E5E5E5;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.card__item {
+    width: 315px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    background-color: #F9F9F9;
+    border: 1px solid #F2F2F2;
+    box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.card__image {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.card__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #333333;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #828282;
+}
+
+.card__price {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #333333;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* =====================РАЗОБРАТЬСЯ======================== */
+
+
+.card__volume {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+}
+
+.card__volume input[type="radio"] {
+    display: none;
+}
+
+.card__volume label {
+    display: inline-block;
+    padding: 4px 12px;
+    cursor: pointer;
+    background: #F9F9F9;
+    border: 1px solid #F9F9F9;
+    border-radius: 5px;
+}
+
+.card__volume input[type="radio"]:checked+label {
+    background-color: #FFFFFF;
+    border: 1px solid #3ECF5E;
+
+}
+
+.card__volume label:hover {
+    background-color: #d0ffb7;
+    border: 1px solid #3ECF5E;
+
+}
+
+.card__btn {
+    display: flex;
+    justify-content: space-between  ;
+    margin-top: 25px;
+}
+
+.btn__more {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #3FCF5E;
+    border: 1px solid rgba(5, 175, 52, 0.53);
+    border-radius: 10px;
+    padding: 12px 32px;
+}
+
+.btn__basket {
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    padding-top: 9px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+}
+
+.btn__basket:hover {
+    background-color: #d0ffb7;
+    border: 1px solid #3ECF5E;
+
+}
+
+.slider {
+    text-align: center;
+}
+
+.footer_main {
+    background: #333333;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+.footer_main .contact__item {
+    color: #FFFFFF;
+}
+
+.footer_main .contact__item::before {
+    content: '';
+    position: absolute;
+    background: url('/icon_phone_white.png');
+    top: 0;
+    left: -29px;
+    width: 20px;
+    height: 20px;
+
+}
