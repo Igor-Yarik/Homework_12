@@ -18,20 +18,15 @@ a {
     width: 1320px;
     margin-right: auto;
     margin-left: auto;
-
 }
 
 .header_top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     margin-top: 33px;
     margin-bottom: 42px;
 }
-
-
-
 
 .contact {
     display: flex;
@@ -54,13 +49,11 @@ a {
     left: -29px;
     width: 20px;
     height: 20px;
-
 }
 
 .bye {
     margin-left: 60px;
     position: relative;
-
 }
 
 .bye::after {
@@ -79,16 +72,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
-
 }
 
 .user {
     margin-left: 15px;
 }
-
-
 
 .header_main {
     display: flex;
@@ -96,15 +84,10 @@ a {
     margin-bottom: 30px;
 }
 
-.header_nav {
-
-}
-
 .navigation {
     font-weight: 500;
     font-size: 18px;
-    line-height: 21px;
-    
+    line-height: 21px;    
 }
 
 .link_nav {
@@ -127,8 +110,7 @@ a {
     font-size: 18px;
     line-height: 21px;
     color: #828282;
-    position: relative;
-    
+    position: relative;    
 }
 
 
@@ -136,8 +118,7 @@ a {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;    
 }
 
 .link_main_nav {
@@ -157,23 +138,6 @@ a {
     color: #333333;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .search_form {
     position: relative;
 }
@@ -186,15 +150,10 @@ a {
     right: 23px;
     width: 26px;
     height: 27px;
-
 }
 
-
-
-
-
 .mixes {
-    background-color: #E5E5E5;
+    background-color: #f9f9f9;
     padding-top: 75px;
     padding-bottom: 100px;
 }
@@ -202,8 +161,7 @@ a {
 .card {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 
 .card__item {
@@ -275,13 +233,11 @@ a {
 .card__volume input[type="radio"]:checked+label {
     background-color: #FFFFFF;
     border: 1px solid #3ECF5E;
-
 }
 
 .card__volume label:hover {
     background-color: #d0ffb7;
     border: 1px solid #3ECF5E;
-
 }
 
 .card__btn {
@@ -314,7 +270,6 @@ a {
 .btn__basket:hover {
     background-color: #d0ffb7;
     border: 1px solid #3ECF5E;
-
 }
 
 .slider {
@@ -324,7 +279,32 @@ a {
 .footer_main {
     background: #333333;
     padding-top: 100px;
-    padding-bottom: 130px;
+    padding-bottom: 129px;
+}
+
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;    
+}
+
+.info_item {
+    color: #FFFFFF;
+    margin-right: 47px;
+}
+
+.info_item:last-child {
+    margin-right: 0;
+}
+
+.social {
+    margin-left: -47px;
 }
 
 .footer_main .contact__item {
@@ -339,5 +319,8 @@ a {
     left: -29px;
     width: 20px;
     height: 20px;
+}
 
+.social {
+    align-self: flex-start;
 }
