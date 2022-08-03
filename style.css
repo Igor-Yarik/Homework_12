@@ -1,5 +1,11 @@
+@import url(/fonts.css);
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gilroy';
 }
 
 h3, p {
@@ -211,6 +217,8 @@ a {
 
 
 .card__volume {
+    display: flex;
+    justify-content: space-between;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
