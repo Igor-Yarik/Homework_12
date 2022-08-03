@@ -5,7 +5,6 @@
 body {
     font-family: 'Gilroy' serif;
     margin: 0;
-
 }
 
 h3, p, a {
@@ -33,24 +32,24 @@ a {
 .contact {
     display: flex;
     align-items: center;
-}
 
-.contact__item {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
-    position: relative;
-}
+    &__item {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+        position: relative;
+    }
 
-.contact__item::before {
-    content: '';
-    position: absolute;
-    background: url('../images/icon_phone.png');
-    top: 0;
-    left: -29px;
-    width: 20px;
-    height: 20px;
+    &__item::before {
+        content: '';
+        position: absolute;
+        background: url('../images/icon_phone.png');
+        top: 0;
+        left: -29px;
+        width: 20px;
+        height: 20px;
+    }
 }
 
 .bye {
@@ -137,7 +136,6 @@ a {
     margin-bottom: 30px;    
 }
 
-
 .link_main_nav {
     position: relative;
     color: #BDBDBD;
@@ -161,7 +159,6 @@ a {
     font-size: 20px;
     line-height: 24px;
     margin-bottom: 44px;
-
 }
 
 .back::before {
@@ -174,11 +171,9 @@ a {
     left: 0;
 }
 
-
 .link_back { 
     color: #333333;
     margin-left: 22px;
-
 }
 
 .search_form {
@@ -205,20 +200,20 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;    
-}
 
-.card__item {
-    position: relative;
-    width: 315px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    background-color: #F9F9F9;
-    border: 1px solid #F2F2F2;
-    box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.05);
-    border-radius: 20px;
-    margin-bottom: 50px;
+    &__item {
+        position: relative;
+        width: 315px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        background-color: #F9F9F9;
+        border: 1px solid #F2F2F2;
+        box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
 }
 
 .card__item-novelty::after {
@@ -344,13 +339,11 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-
 }
 
 .slider_link-active {
     position: relative;
     color: #219653;
-
 }
 
 .slider_link {
@@ -376,10 +369,8 @@ a {
     width: 6px;
     height: 11px;
     top: 25%;
-    left: -30px;
- 
+    left: -30px; 
 }
-
 
 .footer_main {
     background: #333333;
