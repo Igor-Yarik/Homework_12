@@ -1,5 +1,5 @@
-@import url(/fonts.css);
-@import url(/slider.css);
+@import url(fonts.css);
+
 
 
 * {
@@ -10,7 +10,7 @@ body {
     font-family: 'Gilroy';
 }
 
-h3, p {
+h3, p, a {
     margin: 0;
 }
 
@@ -52,7 +52,7 @@ a {
 .contact__item::before {
     content: '';
     position: absolute;
-    background: url('/icon_phone.png');
+    background: url('icon_phone.png');
     top: 0;
     left: -29px;
     width: 20px;
@@ -109,7 +109,7 @@ a {
 .link_nav:first-child:after {
     position: absolute;
     content: ' ';
-    background: url(/nav_arrow.png) center no-repeat;
+    background: url('nav_arrow.png') center no-repeat;
     width: 9px;
     height: 5px;
     top: 8px;
@@ -173,7 +173,7 @@ a {
 .back::before {
     position: absolute;
     content: ' ';
-    background: url(/back_arrow.png) center no-repeat;
+    background: url('back_arrow.png') center no-repeat;
     width: 6px;
     height: 11px;
     top: 25%;
@@ -194,7 +194,7 @@ a {
 .search_form::after {
     content: '';
     position: absolute;
-    background: url(/icon_search.png) center;
+    background: url('icon_search.png') center;
     top: 25%;
     right: 23px;
     width: 26px;
@@ -346,24 +346,12 @@ a {
 }
 
 .slider {
-   /*  position: relative; */
     text-align: center;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
 
 }
-
-/* .slider::after {
-    content: '';
-    position: absolute;
-    background: url(/slide_arrow_next.png) center no-repeat;
-    width: 6px;
-    height: 11px;
-    top: 50%;
-    right: 50%;
-
-} */
 
 .slider_link-active {
     position: relative;
@@ -380,7 +368,7 @@ a {
 .slider_link:last-child::after {
     content: '';
     position: absolute;
-    background: url(/slide_arrow_next.png) center no-repeat;
+    background: url('slide_arrow_next.png') center no-repeat;
     width: 6px;
     height: 11px;
     top: 25%;
@@ -390,7 +378,7 @@ a {
 .slider_link-active::before {
     content: '';
     position: absolute;
-    background: url(/slide_arrow_back.png) center no-repeat;
+    background: url('slide_arrow_back.png') center no-repeat;
     width: 6px;
     height: 11px;
     top: 25%;
@@ -437,7 +425,7 @@ a {
 .footer_main .contact__item::before {
     content: '';
     position: absolute;
-    background: url('/icon_phone_white.png');
+    background: url('icon_phone_white.png');
     top: 0;
     left: -29px;
     width: 20px;
