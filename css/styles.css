@@ -1,16 +1,15 @@
 @charset "UTF-8";
+@import "../css/fonts.css";
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Gilroy" serif;
+  font-family: "Gilroy", serif;
   margin: 0;
 }
 
-h3,
-p,
-a {
+h3, p, a {
   margin: 0;
 }
 
@@ -53,11 +52,11 @@ a {
   height: 20px;
 }
 
-.bye {
+.basket {
   margin-left: 60px;
   position: relative;
 }
-.bye::after {
+.basket::after {
   content: "2";
   position: absolute;
   font-weight: 600;
@@ -127,22 +126,22 @@ a {
   position: relative;
 }
 
-.main_nav {
+.main__nav {
   display: flex;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   margin-bottom: 30px;
 }
-.main_nav__link {
+.main__nav__link {
   position: relative;
   color: #bdbdbd;
   margin-right: 35px;
 }
-.main_nav__link:last-child {
+.main__nav__link:last-child {
   margin-right: 0;
 }
-.main_nav__link:last-child::before {
+.main__nav__link:last-child::before {
   position: absolute;
   content: "";
   width: 6px;
@@ -160,6 +159,10 @@ a {
   line-height: 24px;
   margin-bottom: 44px;
 }
+.back__link {
+  color: #333333;
+  margin-left: 22px;
+}
 .back::before {
   position: absolute;
   content: " ";
@@ -168,11 +171,6 @@ a {
   height: 11px;
   top: 25%;
   left: 0;
-}
-
-.link_back {
-  color: #333333;
-  margin-left: 22px;
 }
 
 .search_form {
@@ -188,7 +186,7 @@ a {
   height: 27px;
 }
 
-.mixes {
+.cards {
   background-color: #f9f9f9;
   padding-top: 75px;
   padding-bottom: 100px;
@@ -210,7 +208,7 @@ a {
   border: 1px solid #f2f2f2;
   box-shadow: -8px -8px 15px #ffffff, 8px 8px 15px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 46px;
 }
 .card__image {
   background-color: #ffffff;
@@ -244,7 +242,7 @@ a {
   margin-top: 25px;
 }
 
-.card__item-novelty::after {
+.card__item--novelty::after {
   position: absolute;
   content: "Новинка";
   font-weight: 600;
@@ -258,10 +256,10 @@ a {
   border-radius: 10px;
 }
 
-/* =====================РАЗОБРАТЬСЯ======================== */
 .card__volume {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
@@ -289,6 +287,10 @@ a {
 .card__volume label:hover {
   background-color: #d0ffb7;
   border: 1px solid #3ecf5e;
+}
+
+.card__btn {
+  width: 100%;
 }
 
 .btn__more {
@@ -322,10 +324,12 @@ a {
 }
 
 .slider {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
+  margin-top: 4px;
 }
 .slider__link {
   position: relative;
@@ -357,13 +361,13 @@ a {
   left: -30px;
 }
 
-.footer_main {
+.footer__main {
   background: #333333;
   padding-top: 100px;
   padding-bottom: 129px;
 }
 
-.footer_info {
+.footer__item {
   display: flex;
   justify-content: space-between;
 }
@@ -374,29 +378,29 @@ a {
   font-size: 18px;
   line-height: 21px;
 }
-
-.info_item {
+.information__item {
   color: #ffffff;
   margin-right: 47px;
 }
-
-.info_item:last-child {
+.information__item:last-child {
   margin-right: 0;
 }
 
 .social {
-  margin-left: -37px;
+  margin-left: -59px;
 }
-
-.social a {
+.social__item {
   margin-right: 20px;
 }
+.social__item:last-child {
+  margin-right: 0;
+}
 
-.footer_main .contact__item {
+.footer__main .contact__item {
   color: #ffffff;
 }
 
-.footer_main .contact__item::before {
+.footer__main .contact__item::before {
   content: "";
   position: absolute;
   background: url("../images/icon_phone_white.png");

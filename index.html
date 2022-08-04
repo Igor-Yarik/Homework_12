@@ -1,60 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Корм, купить, животные, птицы">
+    <meta name="description" content="Корм для животных">
     <title>Homework_12</title>
     <link rel="stylesheet" href="./css/styles.css">
-
 <body>
-
     <header>
         <div class="wrapper">
             <div class="header_top">
-                <a href=""><img src="./images/logo.png" alt="Logo"></a>                
+                <a href="#"><img src="./images/logo.png" alt="Logo"></a>
                 <div class="contact">
                     <a class="contact__item" href="tel:+389209994350">8 920 999 43 50</a>
-                    <a class="bye" href=""><img src="./images/icon_buy.png" alt=""></a>
-                    <a class="user" href=""><img src="./images/icon_user.png" alt=""></a>
+                    <a class="basket" href="#"><img src="./images/icon_basket.png" alt="Корзина"></a>
+                    <a class="user" href="#"><img src="./images/icon_user.png" alt="Авторизация"></a>
                 </div>
             </div>
             <div class="header_main">
                 <div class="header_nav">
                     <nav class="navigation">
-                        <a class="link_nav" href="">Каталог</a>
-                        <a class="link_nav" href="">О проекте</a>
-                        <a class="link_nav" href="">Птицы</a>
-                        <a class="link_nav" href="">Пожертвования</a>
+                        <a class="link_nav" href="#">Каталог</a>
+                        <a class="link_nav" href="#">О проекте</a>
+                        <a class="link_nav" href="#">Птицы</a>
+                        <a class="link_nav" href="#">Пожертвования</a>
                     </nav>
                 </div>
                 <div class="geader_search">
-                    <form class="search_form" action="">
-                        <input class="search" type="text" name="text" placeholder="Поиск">
+                    <form class="search_form" action="https://fom.in.ua/echo" method="get">
+                        <input class="search" type="text" name="search" placeholder="Поиск">
                     </form>
                 </div>
             </div>
         </div>
     </header>
-
     <main>
-        <section class="mixes">
+        <section class="cards">
             <div class="wrapper">
-                <div class="main_nav">
-                    <a class="main_nav__link" href="">Каталог</a>
-                    <a class="main_nav__link" href="">Готовые миксы</a>
+                <div class="main__nav">
+                    <a class="main__nav__link" href="#">Каталог</a>
+                    <a class="main__nav__link" href="#">Готовые миксы</a>
                 </div>
                 <div class="back">
-                    <a class="link_back" href="">Назад</a>
-                </div>                
+                    <a class="back__link" href="#">Назад</a>
+                </div>
                 <div class="card">
                     <div class="card__item">
-                        <img class="card__image" src="./images/image_product.png" alt="">
+                        <img class="card__image" src="./images/image_product.png" alt="Корм для птиц">
                         <h3 class="card__title">PADOVAN OVOMIX GOLD ROSSO</h3>
                         <p class="card__text">Корм для птиц</p>
                         <p class="card__price">1000 грн.</p>
-                        <form class="card__volume" action="">
+                        <form class="card__volume" action="https://fom.in.ua/echo" method="get">
                             <input id="1.1" type="radio" name="volume" value="200">
                             <label for="1.1">200 г</label>
                             <input id="2.1" type="radio" name="volume" value="400">
@@ -63,20 +61,20 @@
                             <label for="3.1">800 г</label>
                             <input id="4.1" type="radio" name="volume" value="1000">
                             <label for="4.1">1 кг</label>
+                            <div class="card__btn">
+                                <button class="btn__more" type="button">Подробнее</button>
+                                <button class="btn__basket">
+                                    <img src="./images/icon_basket.png" alt="В корзину">
+                                </button>
+                            </div>
                         </form>
-                        <div class="card__btn">
-                            <button class="btn__more" type="button">Подробнее</button>
-                            <button class="btn__basket" type="button">
-                                <img src="./images/icon_buy.png" alt="">
-                            </button>
-                        </div>
                     </div>
-                    <div class="card__item card__item-novelty">
-                        <img class="card__image" src="./images/image_product.png" alt="">
+                    <div class="card__item card__item--novelty">
+                        <img class="card__image" src="./images/image_product.png" alt="Корм для птиц">
                         <h3 class="card__title">PADOVAN OVOMIX GOLD ROSSO</h3>
                         <p class="card__text">Корм для птиц</p>
                         <p class="card__price">1000 грн.</p>
-                        <form class="card__volume" action="">
+                        <form class="card__volume" action="https://fom.in.ua/echo" method="get">
                             <input id="1.2" type="radio" name="volume" value="200">
                             <label for="1.2">200 г</label>
                             <input id="2.2" type="radio" name="volume" value="400">
@@ -85,20 +83,21 @@
                             <label for="3.2">800 г</label>
                             <input id="4.2" type="radio" name="volume" value="1000">
                             <label for="4.2">1 кг</label>
+
+                            <div class="card__btn">
+                                <button class="btn__more" type="button">Подробнее</button>
+                                <button class="btn__basket">
+                                    <img src="./images/icon_basket.png" alt="В корзину">
+                                </button>
+                            </div>
                         </form>
-                        <div class="card__btn">
-                            <button class="btn__more" type="button">Подробнее</button>
-                            <button class="btn__basket" type="button">
-                                <img src="./images/icon_buy.png" alt="">
-                            </button>
-                        </div>
                     </div>
-                    <div class="card__item card__item-novelty">
-                        <img class="card__image" src="./images/image_product.png" alt="">
+                    <div class="card__item card__item--novelty">
+                        <img class="card__image" src="./images/image_product.png" alt="Корм для птиц">
                         <h3 class="card__title">PADOVAN OVOMIX GOLD ROSSO</h3>
                         <p class="card__text">Корм для птиц</p>
                         <p class="card__price">1000 грн.</p>
-                        <form class="card__volume" action="">
+                        <form class="card__volume" action="https://fom.in.ua/echo" method="get">
                             <input id="1.3" type="radio" name="volume" value="200">
                             <label for="1.3">200 г</label>
                             <input id="2.3" type="radio" name="volume" value="400">
@@ -107,20 +106,20 @@
                             <label for="3.3">800 г</label>
                             <input id="4.3" type="radio" name="volume" value="1000">
                             <label for="4.3">1 кг</label>
+                            <div class="card__btn">
+                                <button class="btn__more" type="button">Подробнее</button>
+                                <button class="btn__basket">
+                                    <img src="./images/icon_basket.png" alt="В корзину">
+                                </button>
+                            </div>
                         </form>
-                        <div class="card__btn">
-                            <button class="btn__more" type="button">Подробнее</button>
-                            <button class="btn__basket" type="button">
-                                <img src="./images/icon_buy.png" alt="">
-                            </button>
-                        </div>
                     </div>
                     <div class="card__item">
-                        <img class="card__image" src="./images/image_product.png" alt="">
+                        <img class="card__image" src="./images/image_product.png" alt="Корм для птиц">
                         <h3 class="card__title">PADOVAN OVOMIX GOLD ROSSO</h3>
                         <p class="card__text">Корм для птиц</p>
                         <p class="card__price">1000 грн.</p>
-                        <form class="card__volume" action="">
+                        <form class="card__volume" action="https://fom.in.ua/echo" method="get">
                             <form class="card__volume" action="">
                                 <input id="1.4" type="radio" name="volume" value="200">
                                 <label for="1.4">200 г</label>
@@ -130,20 +129,20 @@
                                 <label for="3.4">800 г</label>
                                 <input id="4.4" type="radio" name="volume" value="1000">
                                 <label for="4.4">1 кг</label>
+                                <div class="card__btn">
+                                    <button class="btn__more" type="button">Подробнее</button>
+                                    <button class="btn__basket">
+                                        <img src="./images/icon_basket.png" alt="В корзину">
+                                    </button>
+                                </div>
                             </form>
-                            <div class="card__btn">
-                                <button class="btn__more" type="button">Подробнее</button>
-                                <button class="btn__basket" type="button">
-                                    <img src="./images/icon_buy.png" alt="">
-                                </button>
-                            </div>
                     </div>
                     <div class="card__item">
-                        <img class="card__image" src="./images/image_product.png" alt="">
+                        <img class="card__image" src="./images/image_product.png" alt="Корм для птиц">
                         <h3 class="card__title">PADOVAN OVOMIX GOLD ROSSO</h3>
                         <p class="card__text">Корм для птиц</p>
                         <p class="card__price">1000 грн.</p>
-                        <form class="card__volume" action="">
+                        <form class="card__volume" action="https://fom.in.ua/echo" method="get">
                             <input id="1.5" type="radio" name="volume" value="200">
                             <label for="1.5">200 г</label>
                             <input id="2.5" type="radio" name="volume" value="400">
@@ -152,20 +151,20 @@
                             <label for="3.5">800 г</label>
                             <input id="4.5" type="radio" name="volume" value="1000">
                             <label for="4.5">1 кг</label>
+                            <div class="card__btn">
+                                <button class="btn__more" type="button">Подробнее</button>
+                                <button class="btn__basket">
+                                    <img src="./images/icon_basket.png" alt="В корзину">
+                                </button>
+                            </div>
                         </form>
-                        <div class="card__btn">
-                            <button class="btn__more" type="button">Подробнее</button>
-                            <button class="btn__basket" type="button">
-                                <img src="./images/icon_buy.png" alt="">
-                            </button>
-                        </div>
                     </div>
                     <div class="card__item">
-                        <img class="card__image" src="./images/image_product.png" alt="">
+                        <img class="card__image" src="./images/image_product.png" alt="Корм для птиц">
                         <h3 class="card__title">PADOVAN OVOMIX GOLD ROSSO</h3>
                         <p class="card__text">Корм для птиц</p>
                         <p class="card__price">1000 грн.</p>
-                        <form class="card__volume" action="">
+                        <form class="card__volume" action="https://fom.in.ua/echo" method="get">
                             <input id="1.6" type="radio" name="volume" value="200">
                             <label for="1.6">200 г</label>
                             <input id="2.6" type="radio" name="volume" value="400">
@@ -174,20 +173,20 @@
                             <label for="3.6">800 г</label>
                             <input id="4.6" type="radio" name="volume" value="1000">
                             <label for="4.6">1 кг</label>
+                            <div class="card__btn">
+                                <button class="btn__more" type="button">Подробнее</button>
+                                <button class="btn__basket">
+                                    <img src="./images/icon_basket.png" alt="В корзину">
+                                </button>
+                            </div>
                         </form>
-                        <div class="card__btn">
-                            <button class="btn__more" type="button">Подробнее</button>
-                            <button class="btn__basket" type="button">
-                                <img src="./images/icon_buy.png" alt="">
-                            </button>
-                        </div>
                     </div>
                     <div class="card__item">
-                        <img class="card__image" src="./images/image_product.png" alt="">
+                        <img class="card__image" src="./images/image_product.png" alt="Корм для птиц">
                         <h3 class="card__title">PADOVAN OVOMIX GOLD ROSSO</h3>
                         <p class="card__text">Корм для птиц</p>
                         <p class="card__price">1000 грн.</p>
-                        <form class="card__volume" action="">
+                        <form class="card__volume" action="https://fom.in.ua/echo" method="get">
                             <input id="1.7" type="radio" name="volume" value="200">
                             <label for="1.7">200 г</label>
                             <input id="2.7" type="radio" name="volume" value="400">
@@ -196,20 +195,20 @@
                             <label for="3.7">800 г</label>
                             <input id="4.7" type="radio" name="volume" value="1000">
                             <label for="4.7">1 кг</label>
+                            <div class="card__btn">
+                                <button class="btn__more" type="button">Подробнее</button>
+                                <button class="btn__basket">
+                                    <img src="./images/icon_basket.png" alt="В корзину">
+                                </button>
+                            </div>
                         </form>
-                        <div class="card__btn">
-                            <button class="btn__more" type="button">Подробнее</button>
-                            <button class="btn__basket" type="button">
-                                <img src="./images/icon_buy.png" alt="">
-                            </button>
-                        </div>
                     </div>
                     <div class="card__item">
-                        <img class="card__image" src="./images/image_product.png" alt="">
+                        <img class="card__image" src="./images/image_product.png" alt="Корм для птиц">
                         <h3 class="card__title">PADOVAN OVOMIX GOLD ROSSO</h3>
                         <p class="card__text">Корм для птиц</p>
                         <p class="card__price">1000 грн.</p>
-                        <form class="card__volume" action="">
+                        <form class="card__volume" action="https://fom.in.ua/echo" method="get">
                             <input id="1.8" type="radio" name="volume" value="200">
                             <label for="1.8">200 г</label>
                             <input id="2.8" type="radio" name="volume" value="400">
@@ -218,45 +217,40 @@
                             <label for="3.8">800 г</label>
                             <input id="4.8" type="radio" name="volume" value="1000">
                             <label for="4.8">1 кг</label>
+                            <div class="card__btn">
+                                <button class="btn__more" type="button">Подробнее</button>
+                                <button class="btn__basket">
+                                    <img src="./images/icon_basket.png" alt="В корзину">
+                                </button>
+                            </div>
                         </form>
-                        <div class="card__btn">
-                            <button class="btn__more" type="button">Подробнее</button>
-                            <button class="btn__basket" type="button">
-                                <img src="./images/icon_buy.png" alt="">
-                            </button>
-                        </div>
                     </div>
                 </div>
                 <div class="slider">
-                    <a class="slider__link--active" href="">1</a>
-                    <a class="slider__link" href="">2</a>
-                    <a class="slider__link" href="">3</a>
+                    <a class="slider__link--active" href="#">1</a>
+                    <a class="slider__link" href="#">2</a>
+                    <a class="slider__link" href="#">3</a>
                 </div>
             </div>
         </section>
     </main>
-
-    <footer class="footer_main">
+    <footer class="footer__main">
         <div class="wrapper">
-            <div class="footer_info">
+            <div class="footer__item">
                 <div class="information">
-                    <a class="info_item" href="">Оплата</a>
-                    <a class="info_item" href="">Доставка</a>
+                    <a class="information__item" href="#">Оплата</a>
+                    <a class="information__item" href="#">Доставка</a>
                 </div>
                 <div class="social">
-                    <a href=""><img src="./images/vk_icon.png" alt=""></a>
-                    <a href=""><img src="./images/insta_icon.png" alt=""></a>
+                    <a class="social__item" href="https://vk.com/" target="_blank"><img src="./images/vk_icon.png" alt="VK"></a>
+                    <a class="social__item" href="https://www.instagram.com/" target="_blank"><img src="./images/insta_icon.png"
+                            alt="Instagramm"></a>
                 </div>
-
                 <div class="contact">
                     <a class="contact__item" href="tel:+389209994350">8 920 999 43 50</a>
                 </div>
             </div>
         </div>
     </footer>
-
 </body>
-
-
-
 </html>
