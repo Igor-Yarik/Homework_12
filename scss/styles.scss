@@ -115,6 +115,20 @@ a {
     margin-right: 0;
 }
 
+.search_form {
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        background: url("../images/icon_search.png") center;
+        top: 25%;
+        right: 23px;
+        width: 26px;
+        height: 27px;
+    }
+}
+
 .search {
     width: 345px;
     height: 54px;
@@ -181,22 +195,8 @@ a {
     }
 }
 
-.search_form {
-    position: relative;
-
-    &::after {
-        content: "";
-        position: absolute;
-        background: url("../images/icon_search.png") center;
-        top: 25%;
-        right: 23px;
-        width: 26px;
-        height: 27px;
-    }
-}
-
 .cards {
-    background-color: #f9f9f9;
+    background-color: #f2f2f2;
     padding-top: 75px;
     padding-bottom: 100px;
 }
