@@ -45,7 +45,7 @@ a {
         &::before {
             content: "";
             position: absolute;
-            background: url("../images/icon_phone.png");
+            background: url("../images/icons/icon_phone.png");
             top: 0;
             left: -29px;
             width: 20px;
@@ -104,7 +104,7 @@ a {
 .link_nav:first-child:after {
     position: absolute;
     content: " ";
-    background: url("../images/nav_arrow.png") center no-repeat;
+    background: url("../images/icons/icon_nav_arrow.png") center no-repeat;
     width: 9px;
     height: 5px;
     top: 8px;
@@ -121,7 +121,7 @@ a {
     &::after {
         content: "";
         position: absolute;
-        background: url("../images/icon_search.png") center;
+        background: url("../images/icons/icon_search.png") center;
         top: 25%;
         right: 23px;
         width: 26px;
@@ -187,7 +187,7 @@ a {
     &::before {
         position: absolute;
         content: " ";
-        background: url("../images/back_arrow.png") center no-repeat;
+        background: url("../images/icons/icon_back_arrow.png") center no-repeat;
         width: 6px;
         height: 11px;
         top: 25%;
@@ -363,7 +363,7 @@ a {
 .slider__link:last-child::after {
     content: "";
     position: absolute;
-    background: url("../images/slide_arrow_next.png") center no-repeat;
+    background: url("../images/icons/icon_slide_arrow_next.png") center no-repeat;
     width: 6px;
     height: 11px;
     top: 25%;
@@ -373,7 +373,7 @@ a {
 .slider__link--active::before {
     content: "";
     position: absolute;
-    background: url("../images/slide_arrow_back.png") center no-repeat;
+    background: url("../images/icons/icon_slide_arrow_back.png") center no-repeat;
     width: 6px;
     height: 11px;
     top: 25%;
@@ -426,7 +426,7 @@ a {
 .footer__main .contact__item::before {
     content: "";
     position: absolute;
-    background: url("../images/icon_phone_white.png");
+    background: url("../images/icons/icon_phone_white.png");
     top: 0;
     left: -29px;
     width: 20px;
