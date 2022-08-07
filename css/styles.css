@@ -369,9 +369,13 @@ a {
   padding-bottom: 129px;
 }
 
-.footer__item {
+.footer__items {
   display: flex;
   justify-content: space-between;
+}
+
+.footer__item {
+  width: 33%;
 }
 
 .information {
@@ -389,13 +393,19 @@ a {
 }
 
 .social {
-  margin-left: -59px;
+  display: flex;
+  justify-content: center;
 }
 .social__item {
   margin-right: 20px;
 }
 .social__item:last-child {
   margin-right: 0;
+}
+
+.footer__item.contact {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .footer__main .contact__item {
