@@ -58,22 +58,21 @@ a {
     margin-left: 60px;
     position: relative;
 
-    &::after {
-        content: "2";
+    & span {
         position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-weight: 600;
         font-size: 12px;
         line-height: 15px;
         color: #ffffff;
+        min-width: 20px;
+        min-height: 20px;
         background-color: #06d10e;
         border-radius: 50%;
-        top: -7px;
-        right: -7px;
-        width: 20px;
-        height: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        left: 50%;
+        bottom: 63%;
     }
 }
 
@@ -370,6 +369,7 @@ a {
     height: 11px;
     top: 25%;
     right: -30px;
+
 }
 
 .slider__link--active::before {
@@ -388,10 +388,19 @@ a {
     padding-bottom: 129px;
 }
 
-.footer__item {
+.footer__items {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
 
+.footer__item {
+    width: 33%;
+
+    &.contact {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
 .information {
@@ -411,7 +420,8 @@ a {
 }
 
 .social {
-    margin-left: -59px;
+    display: flex;
+    justify-content: center;
 
     &__item {
         margin-right: 20px;
@@ -430,8 +440,4 @@ a {
     content: "";
     position: absolute;
     background: url("../images/icons/icon_phone_white.png");
-    top: 0;
-    left: -29px;
-    width: 20px;
-    height: 20px;
 }
